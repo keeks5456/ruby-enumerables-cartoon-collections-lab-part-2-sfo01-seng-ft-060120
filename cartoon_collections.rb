@@ -5,14 +5,13 @@ array.map do |squared|
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect do |calls|
-    "#{calls.capitalize}" + "!"
-  end
+  planeteer_calls.collect 
+
 end
 
+planeteer_calls.collect{ |calls| "#{calls.capitalize}" + "!"}
 def long_planeteer_calls(planeteer_calls)
-  # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
-  # Return the boolean result of this check
+ planeteer_calls.any? do 
 end
 
 def find_valid_calls(planeteer_calls)
