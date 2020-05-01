@@ -1,3 +1,5 @@
+require 'pry'
+
 def square_array(array)
 array.map do |squared|
   squared * squared
@@ -15,6 +17,7 @@ planeteer_calls.any? do |elements|
 end
 
 def find_valid_calls(planeteer_calls)
+  pry
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find do |valid|
    valid_calls == valid 
