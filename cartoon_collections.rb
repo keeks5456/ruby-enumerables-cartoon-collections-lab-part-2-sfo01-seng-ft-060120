@@ -9,7 +9,7 @@ planeteer_calls.collect{ |calls| "#{calls.capitalize}" + "!"}
 end
 
 def long_planeteer_calls(planeteer_calls)
-# planeteer_calls.any? do 
+planeteer_calls.any? do 
 end
 
 def find_valid_calls(planeteer_calls)
