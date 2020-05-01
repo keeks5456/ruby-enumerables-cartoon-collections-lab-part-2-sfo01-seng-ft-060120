@@ -5,13 +5,12 @@ array.map do |squared|
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect 
-
+planeteer_calls.collect{ |calls| "#{calls.capitalize}" + "!"}
 end
 
 planeteer_calls.collect{ |calls| "#{calls.capitalize}" + "!"}
 def long_planeteer_calls(planeteer_calls)
- planeteer_calls.any? do 
+# planeteer_calls.any? do 
 end
 
 def find_valid_calls(planeteer_calls)
