@@ -5,8 +5,8 @@ array.map do |squared|
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect do |calls|
-    puts "#{calls.capitalize}!"
+  planeteer_calls.collect do |calls.capitalize|
+    puts "#{calls}!"
   end
 end
 
