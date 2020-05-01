@@ -19,5 +19,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.detect do |valid|
     if valid == valid_calls 
       return valid
+    end
   end
 end
