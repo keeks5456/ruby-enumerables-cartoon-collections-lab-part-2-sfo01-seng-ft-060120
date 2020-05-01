@@ -8,7 +8,6 @@ def summon_captain_planet(planeteer_calls)
 planeteer_calls.collect{ |calls| "#{calls.capitalize}" + "!"}
 end
 
-planeteer_calls.collect{ |calls| "#{calls.capitalize}" + "!"}
 def long_planeteer_calls(planeteer_calls)
 # planeteer_calls.any? do 
 end
